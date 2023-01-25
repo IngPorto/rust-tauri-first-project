@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <style>
+      .logo.vanilla:hover {
+        filter: drop-shadow(0 0 2em #ffe21c);
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <a href="/" class="button">Home</a>
+      <button id="btn-alert">Alert in Front</button>
+      <button id="btn-alert-backend">Alert in Backend</button>
+      <button id="btn-get-from-backend">Traer del Backend</button>
+    </nav>
+    <div class="container">
+        <input id="name" type="text" placeholder="Añade un nombre...">
+        <p id="lienzo"></p>
+    </div>
+    <script src="./lab.js"></script>
+   </body>
+</html>
